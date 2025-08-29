@@ -70,8 +70,12 @@ h1 {
 
 .input-group {
     margin-top: 0%;
-    margin-bottom: 15%;
+    margin-bottom: 15%;}
+
+.input-group-text {
+    color: rgb(125, 122, 122);
 }
+
 .card.text-dark.bg-light.mb-3 {
     align-self: center;
     width: 100%;
@@ -80,6 +84,8 @@ h1 {
 .card.text-dark.bg-light.mb-3:hover {
     cursor: pointer;
 }
+
+
 .card-header {
     font-size: 13px;
     font-weight: 700;
@@ -95,17 +101,18 @@ h1 {
     padding-left: 3%;
     padding-right: 3%;
 }
-.message.box {
-    display: flex;
-    border: 1px solid black;
-    height: 60%;
+
+.message {
+    margin-top: 10%;
+    height: 70%;
     width: 100%;
-    margin-top: 20%;
-    margin-bottom: 20%;
-    justify-content: flex-end;
-    align-items: flex-end;
-    
 }
+
+textarea {
+    font-size: 15px;
+    color: rgb(125, 122, 122);
+}
+
 
 p {
     font-size: 15px;
@@ -116,7 +123,9 @@ strong {
     color: black;
 }
 
-
+.btn.btn-outline-warning {
+    margin-left: 80%;
+}
 
 .btn.btn-outline-warning:hover {
     cursor: pointer;
