@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+}
+
+
+.my-container {
+    border: 1px solid black;
+}
+
+
+.my-row {
+    display: flex;
+    border: 1px solid black;
+    height: 100vh;
+    
+}
+
+
+.my-col {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+
+#special-col{
+    display: flex;
+    justify-content: center;
+}
+
+.col-3.col-md-3.col-lg-2.my-col {
+    background-color: rgba(42, 36, 36, 0.917);
+}
+
+#v-pills-profile-tab {
+    display: flex;    
+    align-items: center;
+}
+
+h1 {
+    font-size: 20px;
+    color: white;
+    margin-top: 10%;
+    padding-left: 7%;
+    padding-right: 7%
+}
+
+.btn.btn-primary.btn-lg {
+    margin-top: 20%;
+    background-color: rgb(235, 189, 51);
+    border: none;
+}
+
+.col-8.col-md-3.col-lg-3.my-col {
+    border-right: 1px solid rgb(204, 204, 192);
+}
+
+.nav-pills .nav-link.active {
+    margin-top: 50%;
+    background-color: rgba(42, 36, 36, 0.917);
+    color: white;
+    
+}
+ .nav-pills .nav-link {
+    color: white;
+ }
+
+
+.input-group {
+    margin-top: 0%;
+    margin-bottom: 15%;
+}
+.card.text-dark.bg-light.mb-3 {
+    align-self: center;
+    width: 100%;
+    height: 30%
+}
+.card.text-dark.bg-light.mb-3:hover {
+    cursor: pointer;
+}
+.card-header {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.card-text {
+    font-size: 13px;
+    color: rgb(125, 122, 122);
+
+}
+
+.col-0.col-md-5.col-6.my-col {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.message.box {
+    display: flex;
+    border: 1px solid black;
+    height: 60%;
+    width: 100%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+p {
+    font-size: 15px;
+    color: rgb(125, 122, 122);
+}
+
+strong {
+    color: black;
+}
+
+
+
+.btn.btn-outline-warning:hover {
+    cursor: pointer;
+    background-color: rgb(235, 189, 51);
+    color: white;
+    border: 1px solid rgb(235, 189, 51);
+}
+
+
+
+
